@@ -20,7 +20,7 @@ class _InputBin2DecState extends State<InputBin2Dec> {
         _errorText = 'Vui lòng nhập dữ liệu';
         return;
       } else if (binary == null) {
-        _errorText = 'Dữ liệu nhận vào chỉ nhận dạnh nhị phân';
+        _errorText = 'Dữ liệu nhận vào chỉ nhận dạng nhị phân';
         return;
       } else {
         _errorText = null;
